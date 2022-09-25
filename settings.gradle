@@ -1,2 +1,4 @@
 rootProject.name = 'java-micro-devo'
 
+includeBuild 'eureka-server'
+
