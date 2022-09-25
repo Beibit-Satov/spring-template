@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      uri:
+        - http://localhost:8888
+  application:
+      name: eclient
+server:
+  port: 0
+
+eureka:
+  client:
+    service-url:
+      defaultZone : http://localhost:8081/eureka
+
